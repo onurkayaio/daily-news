@@ -1,0 +1,17 @@
+.addlikes-wrapper {
+  margin-bottom: 20px;
+}
+
+.addlikes-container {
+  display: flex;
+  align-items: center;
+}
+
+.addlikes-container .btn {
+  cursor: pointer;
+  text-align: center;
+  background: #f8f8f8;
+  flex: 1;
+  color: #b6d2e8;
+  font-size: 15px;
+}

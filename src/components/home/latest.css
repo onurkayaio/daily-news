@@ -1,0 +1,33 @@
+.home-latest {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.home-latest .article .article-image-cover {
+  position: relative;
+  background-size: cover !important;
+  height: 200px;
+}
+
+.home-latest .article .article-description {
+  position: absolute;
+  bottom: 0;
+}
+
+.home-latest .article .article-description span {
+  background: dodgerblue;
+  padding: 10px;
+  display: inline-block;
+  text-transform: uppercase;
+  color: white;
+  font-size: 10px;
+}
+
+.home-latest .article .article-description div {
+  padding: 10px;
+  color: white;
+  font-size: 15px;
+  background: rgba(53, 53, 53, 0.64);
+  width: 40%;
+  font-weight: 700;
+}

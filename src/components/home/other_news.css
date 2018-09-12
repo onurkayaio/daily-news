@@ -1,0 +1,46 @@
+.other-news {
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.other-news h2 {
+  font-weight: 300;
+}
+
+.other-news-articles .article {
+  display: flex;
+  border: 1px solid grey;
+}
+
+.other-news-articles .article .left {
+  flex-grow: 1;
+  width: 100px;
+  height: 120px;
+  background-size: cover !important;
+  background-position: center center !important;
+}
+
+.other-news-articles .article .right {
+  width: 80%;
+  height: 120px;
+  padding: 10px 15px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.other-news-articles .article .right h3 {
+  margin: 0px;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.other-news-articles .article .right .category-tag {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-color: dodgerblue;
+  font-size: 10px;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  color: white;
+}
